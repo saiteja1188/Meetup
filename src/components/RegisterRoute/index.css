@@ -1,0 +1,48 @@
+.register-container {
+  display: flex;
+  width: 100vw;
+}
+.form-container {
+  width: 50%;
+}
+.reg-heading {
+  font-family: roboto;
+  font-size: 48px;
+}
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  width: 60%;
+}
+.input-label {
+  font-family: roboto;
+  font-size: 16px;
+  color: #64748b;
+  margin-bottom: 10px;
+}
+.input {
+  padding: 12px 12px;
+  font-family: roboto;
+  font-size: 14px;
+  width: 90%;
+  outline: none;
+}
+
+.button {
+  background-color: #3b82f6;
+  color: #ffffff;
+  padding: 12px 12px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 10px;
+  font-family: roboto;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+.error {
+  color: red;
+  margin-top: 0px;
+}
